@@ -1,35 +1,5 @@
-<div class="jumbotron">
+<div class="page-header">
   <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
-  <p>
-    {% unless page.tags == empty %}
-    <ul class="tag_box inline">
-      <li><i class="glyphicon-tags"></i></li>
-      {% assign tags_list = page.tags %}
-        {% if site.JB.tags_list.provider == "custom" %}
-          {% include custom/tags_list %}
-        {% else %}
-          {% if tags_list.first[0] == null %}
-            {% for tag in tags_list %} 
-                <a class="btn btn-xs btn-primary" 
-                   href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref" 
-                   role="button">
-                   {{ tag }}
-                </a>
-            {% endfor %}
-          {% else %}
-            {% for tag in tags_list %} 
-                <a class="btn btn-xs btn-primary" 
-                   href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref" 
-                   role="button">
-                   {{ tag[0] }}
-                </a>
-            {% endfor %}
-          {% endif %}
-        {% endif %}
-      {% assign tags_list = nil %}
-    </ul>
-    {% endunless %}  
-  </p>
 </div>
 
 <div class="row">
