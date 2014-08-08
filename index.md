@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Morgan Powell
+tagline: Mechanical Engineering Graduate
 ---
 {% include JB/setup %}
 
