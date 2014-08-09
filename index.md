@@ -19,14 +19,29 @@ I have particular interests in 3D modelling and rapid prototyping.
     </div>
 </div>
 
-##Blog Posts
+## Blog Posts
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li>
+    {% if post.category == "blog" %}
+      <li>
         <span>{{ post.date | date_to_string }}</span> &raquo; 
         <a href="{{ BASE_PATH }}{{ post.url }}" title="{{post.title}} : {{post.tagline}}">{{ post.title }}</a>
-    </li>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+## Other Articles
+
+<ul class="posts">
+  {% for post in site.posts %}
+    {% if post.category == "blog" %}
+    {% else %}
+      <li>
+        <a href="{{ BASE_PATH }}{{ post.url }}" title="{{post.title}} : {{post.tagline}}">{{ post.title }}</a>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
 
