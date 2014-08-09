@@ -27,12 +27,18 @@ Usage:
     {% if node.title != null %}
       {% if group == null or group == node.group %}
       	<li 
-        {% if page.url == node.url %}
-        class="active"
-        {% endif %}
-        ><a href="{{ BASE_PATH }}{{node.url}}" class="active">
-          {% unless page.octicon == empty %}<span class="octicon octicon-{{ page.octicon }}"></span>&nbsp;{% endunless %}{{node.title}}
-        </a></li>
+            {% if page.url == node.url %}
+            class="active"
+            {% endif %}
+        >
+          <a href="{{ BASE_PATH }}{{node.url}}" 
+             {% if page.url == node.url %}
+               class="active"
+             {% endif %}
+          >
+            {% unless page.octicon == empty %}<span class="octicon octicon-{{ page.octicon }}"></span>&nbsp;{% endunless %}{{node.title}}
+          </a>
+        </li>
       {% endif %}
     {% endif %}
   {% endfor %}
