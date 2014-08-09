@@ -7,7 +7,7 @@ tagline: Mechanical Engineering Graduate
 
 <div class="row">
     <div class="col-md-3">
-        <img href="/assets/img/profile.jpg" />
+        <img href="assets/img/profile.jpg" />
     </div>
     <div class="col-md-8">
 
