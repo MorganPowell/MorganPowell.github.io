@@ -36,7 +36,7 @@ Usage:
                class="active"
              {% endif %}
           >
-            {% unless page.octicon == empty %}<span class="octicon octicon-{{ page.octicon }}"></span>&nbsp;{% endunless %}{{node.title}}
+            {% unless page.octicon == empty %}<span class="octicon octicon-{{ node.octicon }}"></span>&nbsp;{% endunless %}{{node.title}}
           </a>
         </li>
       {% endif %}
