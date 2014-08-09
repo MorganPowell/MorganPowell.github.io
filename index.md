@@ -7,7 +7,7 @@ tagline: Mechanical Engineering Graduate
 
 <div class="row">
     <div class="col-md-3">
-        <img href="assets/img/profile.jpg" />
+        <img src="assets/img/profile.jpg" alt="Graduate of Northumbria University">
     </div>
     <div class="col-md-8">
 
