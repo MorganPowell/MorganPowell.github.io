@@ -5,8 +5,18 @@ tagline: Mechanical Engineering Graduate
 ---
 {% include JB/setup %}
 
+<div class="row">
+    <div class="col-md-3">
+        <img href="/assets/img/profile.jpg" />
+    </div>
+    <div class="col-md-8">
+
 I am a hard working engineering graduate who is looking for employment within an engineering related industry. Upon my graduation in June 2014, I receive an upper second class honours degree in Mechanical Engineering, awarded by Northumbria University. I am a naturally confident person with excellent communication skills, and I feel I would be a great asset to any company, small or large.
 I have particular interests in 3D modelling and rapid prototyping.
+
+    </div>
+</div>
+
 
 ## Blog Posts
 
