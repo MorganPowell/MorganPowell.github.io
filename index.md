@@ -2,6 +2,7 @@
 layout: page
 title: Morgan Powell
 tagline: Mechanical Engineering BEng (Hons)
+octicon: person
 ---
 {% include JB/setup %}
 
