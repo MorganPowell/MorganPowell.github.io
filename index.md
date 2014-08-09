@@ -12,7 +12,10 @@ I have particular interests in 3D modelling and rapid prototyping.
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <li>
+        <span>{{ post.date | date_to_string }}</span> &raquo; 
+        <a href="{{ BASE_PATH }}{{ post.url }}" title="{{post.title}} : {{post.tagline}}">{{ post.title }}</a>
+    </li>
   {% endfor %}
 </ul>
 
