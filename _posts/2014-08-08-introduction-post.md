@@ -9,13 +9,17 @@ tags : [education, work-experience, solidworks, CAD]
 I am a hard working engineering graduate who is looking for employment within an engineering related industry. Upon my graduation in June 2014, I receive an upper second class honours degree in Mechanical Engineering, awarded by Northumbria University. I am a naturally confident person with excellent communication skills, and I feel I would be a great asset to any company, small or large. I have particular interests in 3D modelling and rapid prototyping.
 
 ## Education
+
 ### Northumbria University
+
 #### Bachelor's Degree, [Mechanical Engineering][mecheng], 2.1 (2011 - 2014, 3 years)
 
 A 10,000 word dissertation entitled "Designed and 3D printed topographical surface features for a microfluidic device" (74%).
 
 ## Work Experience
+
 ### Dispensing Staff
+
 #### Kelly Chemist - (October 2007 - Present)
 
 Main responsibilities within the company include:
