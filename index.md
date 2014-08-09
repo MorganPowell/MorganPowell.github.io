@@ -19,10 +19,7 @@ I have particular interests in 3D modelling and rapid prototyping.
     </div>
 </div>
 
-<div class="row">
-    <div class="col-md-6">
-
-## Blog Posts
+##Blog Posts
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -32,17 +29,11 @@ I have particular interests in 3D modelling and rapid prototyping.
     </li>
   {% endfor %}
 </ul>
-    
-    </div>
-    <div class="col-md-6">
 
 ## Links
 
 * [Linked In][linkedin]
 * [Northumbria University Course][mecheng]
-
-    </div>
-</div>
 
 
 [linkedin]: http://uk.linkedin.com/pub/morgan-powell/88/811/6a7 "Morgan Powell's Linked In Profile"
