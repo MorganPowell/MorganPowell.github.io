@@ -32,15 +32,15 @@ Organizing the dispensary; introduced and implemented a new shelving system whic
 
 <ul class="list-inline">
     <li class="text-primary">Engineering Management</li>
-    <li class="text-success>Mechanics</li>
+    <li class="text-success">Mechanics</li>
     <li class="text-primary">Mechanical Engineering</li>
-    <li class="text-success>Thermodynamics</li>
+    <li class="text-success">Thermodynamics</li>
     <li class="text-primary">Solidworks</li>
-    <li class="text-success>CAD</li>
+    <li class="text-success">CAD</li>
     <li class="text-primary">Renewable Energy</li>
-    <li class="text-success>Energy Efficiency</li>
+    <li class="text-success">Energy Efficiency</li>
     <li class="text-primary">Stress Analysis</li>
-    <li class="text-success>Heat Transfer</li>
+    <li class="text-success">Heat Transfer</li>
     <li class="text-primary">ANSYS</li>
 </ul>
 
