@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Morgan Powell
-tagline: Mechanical Engineering Graduate
+tagline: Mechanical Engineering BEng (Hons)
 ---
 {% include JB/setup %}
 
@@ -19,6 +19,8 @@ I have particular interests in 3D modelling and rapid prototyping.
     </div>
 </div>
 
+<div class="row">
+    <div class="col-md-6">
 
 ## Blog Posts
 
@@ -30,11 +32,18 @@ I have particular interests in 3D modelling and rapid prototyping.
     </li>
   {% endfor %}
 </ul>
+    
+    </div>
+    <div class="col-md-6">
 
 ## Links
 
 * [Linked In][linkedin]
+* [Northumbria University Course][mecheng]
 
+    </div>
+</div>
 
 
 [linkedin]: http://uk.linkedin.com/pub/morgan-powell/88/811/6a7 "Morgan Powell's Linked In Profile"
+[mecheng]: http://www.northumbria.ac.uk/study-at-northumbria/courses/mechanical-engineering-uusmee1/ "Mechanical Engineering BEng (Hons)"
