@@ -12,16 +12,14 @@
     </div>
 
   {% unless page.categories == empty %}
-    <span class="octicon octicon-pin"></span>
-    <ul class="tag_box inline">
+    <span class="octicon octicon-pin"></span><nobr><ul class="tag_box inline">
       {% assign categories_list = page.categories %}
       {% include JB/categories_list %}
     </ul>
   {% endunless %}  
 
   {% unless page.tags == empty %}
-    <span class="octicon octicon-tag"></span>
-    <ul class="tag_box inline">
+    <span class="octicon octicon-tag"></span><nobr><ul class="tag_box inline">
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
