@@ -16,7 +16,7 @@ A 10,000 word dissertation entitled "Designed and 3D printed topographical surfa
 
 ## Work Experience
 ### Dispensing Staff
-#### Kelly Chemist - (October 2007 – Present)
+#### Kelly Chemist - (October 2007 - Present)
 
 Main responsibilities within the company include:
 Customer interaction; sometimes with confused elderly patients and with potentially irate customers.
