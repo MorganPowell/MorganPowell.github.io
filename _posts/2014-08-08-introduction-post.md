@@ -1,6 +1,6 @@
 ---
 layout: post
-category : blog
+category : update
 tagline: "My status post-graduation"
 tags : [education, work-experience, solidworks, CAD]
 ---
