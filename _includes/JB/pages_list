@@ -26,13 +26,13 @@ Usage:
   {% for node in pages_list %}
     {% if node.title != null %}
       {% if group == null or group == node.group %}
-      	{% if page.url == node.url %}
-      	<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">
+      	<li 
+        {% if page.url == node.url %}
+        class="active"
+        {% endif %}
+        ><a href="{{ BASE_PATH }}{{node.url}}" class="active">
           {% unless page.octicon == empty %}<span class="octicon octicon-{{ page.octicon }}"></span>&nbsp;{% endunless %}{{node.title}}
         </a></li>
-      	{% else %}
-      	<li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
-      	{% endif %}
       {% endif %}
     {% endif %}
   {% endfor %}
