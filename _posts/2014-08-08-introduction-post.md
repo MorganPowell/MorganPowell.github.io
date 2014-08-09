@@ -16,18 +16,6 @@ I am a hard working engineering graduate who is looking for employment within an
 
 A 10,000 word dissertation entitled "Designed and 3D printed topographical surface features for a microfluidic device" (74%).
 
-## Work Experience
-
-### Dispensing Staff
-
-#### Kelly Chemist - (October 2007 - Present)
-
-Main responsibilities within the company include:
-Customer interaction; sometimes with confused elderly patients and with potentially irate customers.
-Dispensing prescriptions; using specialized computer software.
-Ordering medicines; phoning companies to place orders
-Organizing the dispensary; introduced and implemented a new shelving system which has proven to more effective and time saving for all staff.
-
 ## Skills
 
 <ul class="list-inline">
@@ -43,5 +31,17 @@ Organizing the dispensary; introduced and implemented a new shelving system whic
     <li class="text-success">Heat Transfer</li>
     <li class="text-primary">ANSYS</li>
 </ul>
+
+## Work Experience
+
+### Dispensing Staff
+
+#### Kelly Chemist - (October 2007 - Present)
+
+Main responsibilities within the company include:
+Customer interaction; sometimes with confused elderly patients and with potentially irate customers.
+Dispensing prescriptions; using specialized computer software.
+Ordering medicines; phoning companies to place orders
+Organizing the dispensary; introduced and implemented a new shelving system which has proven to more effective and time saving for all staff.
 
 [mecheng]: http://www.northumbria.ac.uk/study-at-northumbria/courses/mechanical-engineering-uusmee1/ "Mechanical Engineering BEng (Hons)"
